@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form{
+  width: 50%;
+}
+
+form label{
+  font-size: 1.2rem;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+input[type="text"], input[type="email"], input[type="number"], input[type="date"], input[type="destination"], textarea {
+  margin: 0 0 1em;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+select 
+{
+    outline:0;
+    box-shadow:none;
+    background-image: none;
+    padding: 0.3em;
+    cursor:pointer;
+    font-size: 1em;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 3rem;
+}
+
+.multiple 
+{
+color: blue;
+}
+
+textarea {
+  height: 6em;
+}
+input[type="submit"], button {
+  background: #181818;
+  color: #fff;
+  cursor: pointer;
+}
+input[type="submit"]:hover, button:hover {
+  background: #575757;
+}
+
+.submit
+{
+  margin-bottom: 2rem;
+}
+
+.bodyform
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textreservation
+{
+  padding-top: 3rem;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textreservation1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-reservation-top
+{
+  padding-top: 3rem;
+}
+
+@media screen and (max-width:890px)
+{
+  .textreservation1
+  {
+    padding: 2rem;
+  }
+}
+
+
