@@ -5,11 +5,11 @@ $last = $_POST['last'];
 $email = $_POST['email'];
 $contact = $_POST['contact'];
 $message = $_POST['message'];
-$to = 'yukiro.azn@live.com';
+$to = 'contact@lexluxetransport.com';
 $subject = 'New Message';
 
 $headers = "From: ".$name. "\r\n".
-"CC: contact@jaydigital.fr";
+"CC: yukiro.azn@live.com";
 
 $txt = "Name:   " .$name.
 "\r\nLast Name:   " .$last.

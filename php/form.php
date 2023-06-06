@@ -8,11 +8,11 @@ $arrival = $_POST['arrival'];
 $passenger = $_POST['passenger'];
 $destination = $_POST['destination'];
 $message = $_POST['message'];
-$to = 'yukiro.azn@live.com';
+$to = 'contact@lexluxetransport.com';
 $subject = 'New Reservation Quote';
 
 $headers = "From: ".$name. "\r\n".
-"CC: contact@jaydigital.fr";
+"CC: yukiro.azn@live.com";
 
 $txt = "Name:   " .$name.
 "\r\nLast Name:   " .$last.
