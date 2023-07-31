@@ -356,6 +356,7 @@ a:hover {
 .uk-nav-navbar > li > a:hover, .uk-nav-navbar > li > a:focus { background: #575757; color: #fff;}
 /* Full Width Gap */
 .gap-fullsize {background-image: url("images/taxi-stripe.jpg"); min-height: 12px; width: 100% ; position: relative;}
+.gap-fullsize1 {background-image: url("images/taxi-stripe.jpg"); min-height: 1px; width: 100% ; position: relative;}
 
 /*-------------------------------*/
 /* Full Width Carousel Container */
@@ -386,7 +387,7 @@ a:hover {
   .lead-large  {    font-size: 64px;  }
 }
 /* Carousel Buttons */
-.os-btn{ background-color: transparent; border: 2px solid #575757; border-radius: 100px; box-shadow: none; padding: 10px 25px; font-size: 18px; margin-top: 10px;}
+.os-btn{ background-color: transparent; border: 2px solid #575757; border-radius: 100px; box-shadow: none; padding: 10px 25px; font-size: 18px; margin-top: 10px; margin-right: 90rem;}
 .os-btn-white { border-color: #fff; color: #fff;}
 .os-btn-black { border-color: #000; color: #000;}
 /* Styling Carousel's Next and Prev buttons */
@@ -980,6 +981,102 @@ ol.spot li::before { content: "\f164";}
   width: 90%;
 }
 
+.left{ padding-right:90rem;}
+
+/***** Google Reviews **************************************************************************************************************************************************************************************/
+
+.containerfeedback {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: black;
+  height: auto;
+  transition: 300ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Set the container width to fill the available space */
+  max-width: 500px; /* Set a maximum width for better responsiveness */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 1rem; /* Add some padding for better spacing */
+}
+
+.containerfeedback1 {
+  text-decoration: none;
+  height: auto;
+  transition: 300ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Set the container width to fill the available space */
+  max-width: 500px; /* Set a maximum width for better responsiveness */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 1rem; /* Add some padding for better spacing */
+}
+
+.googletexttitle {
+  display: block; /* Change to block for better responsiveness */
+  width: 100%; /* Make the image take the full width */
+  max-width: 150px; /* Limit the image width for better responsiveness */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.googlestars {
+  margin-top: 1rem;
+  text-align: center; /* Center the stars */
+  color: #f6ad01;
+}
+
+.starcolorbuttongray {
+  color: #dbdbdb;
+}
+
+.reviews {
+  font-size: 12px;
+  margin-top: 1rem; /* Adjust margin for better spacing */
+  text-align: center; /* Center the reviews text */
+}
+
+.reviewcontainer {
+  text-align: center; /* Center the review button */
+}
+
+.explorerbutton {
+  background-color: white;
+  border-radius: 100px;
+  padding: 10px 25px; 
+  font-size: 18px;
+
+}
+
+.googlereviewtext {
+  color: black;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 800px) {
+  .containerfeedback {
+    max-width: 100%; /* Change the maximum width to occupy the full width */
+  }
+
+  .googletexttitle {
+    max-width: 100%; /* Make the image occupy the full width */
+  }
+
+  .googlestars {
+    padding-right: 0; /* Remove the right padding to center stars */
+  }
+
+  .reviews {
+    padding-left: 0; /* Remove the left padding for reviews */
+  }
+
+  .reviewcontainer {
+    text-align: center; /* Center the review button on small screens */
+  }
+}
+
 
 /***** FLEX BOX **********************************************************************************************************************************************************************************/
 .flexCenter
@@ -1025,7 +1122,33 @@ ol.spot li::before { content: "\f164";}
   justify-content: space-between;
 }
 
+.readmore1 
+{ 
+  color: rgb(39, 115, 202) !important;
+}
+
+.radiusrolex
+{
+  border-radius: 30px;
+}
+
 /***** Responsive ********************************************************************************************************************************************************************************/
+
+@media screen and (max-width:1669px)
+{
+  .displaynone
+  {
+    display: none;
+  }
+}
+
+@media screen and (max-width:990px)
+{
+  .rolexresponsive {
+ padding: 2rem;
+ border-radius: 50px;
+  }
+}
 
 @media screen and (min-width: 800px) {
 
@@ -1037,7 +1160,7 @@ ol.spot li::before { content: "\f164";}
   .footernav
   {
     width: 100%;
-  }
+  }  
 
   .containerfonctionnementchild1
   {
@@ -1057,7 +1180,6 @@ ol.spot li::before { content: "\f164";}
 
 @media screen and (max-width:890px)
 {
-
   .row1
   {
     flex-direction: column;

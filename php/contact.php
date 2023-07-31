@@ -5,7 +5,7 @@ $last = $_POST['last'];
 $email = $_POST['email'];
 $contact = $_POST['contact'];
 $message = $_POST['message'];
-$to = 'contact@lexluxetransport.com';
+$to = 'contact@lexluxetransports.com';
 $subject = 'New Message';
 
 $headers = "From: ".$name. "\r\n".

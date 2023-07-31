@@ -1,0 +1,29 @@
+<!-- Feedbacks -->
+<section class="vertical-testimonials" id="verticalTestimonials" data-type="background" data-speed="5">	
+<div class="container">
+<div class="row">                        
+<div class="col-md-12">
+
+</div>
+</div>		
+</div>	  
+<div class="containerfeedback">
+<a href="https://www.google.com/search?hl=fr-FR&gl=fr&q=Lex+Luxe+Transports&ludocid=8117631597180103698&lsig=AB86z5XxMd4GSqYjAtxXafPboEs_#lrd=0xad07b9516f8e1419:0x70a79eedb7682c12,3">
+<div>
+<img class="googletexttitle" src="images/googlerating.png" alt="google rating">
+<div class="googlestars">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<h4 class="reviews">2 reviews</h4>
+<div class="reviewcontainer">
+<h4 class="explorerbutton googlereviewtext">Write a review</h4>
+</div>
+</div>
+</a>
+</div>
+</section>
+<!-- Feedbacks -->
